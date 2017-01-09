@@ -1,0 +1,213 @@
+/* Regole Generali */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3b3c48;
+	min-width: 808px
+}
+
+ul {
+	list-style: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	border: none;
+}
+
+/* Struttura */
+#wrapperBox {
+	width: 900px;
+	clear: left;
+	background: #F4F4FF;  /** CAMBIA COLORE DEL BOX DEL SITO */
+	margin: 10px auto 30px auto;
+	padding: 5px;
+	-moz-box-shadow: 0 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 0 5px 5px#ccc;
+	box-shadow: 0 0 5px 5px #ccc;
+}
+
+#bannerBox {
+	width: 900px;
+	height: 150px;
+}
+
+#centerBox {
+	margin: 5px 0 0 0;
+	width: 900px;
+}
+
+#menuBox {
+	float: left;
+	width: 240px;
+	margin: 0 5px 20px 0;
+}
+
+#menuBox a {
+	display: block;
+	width: 239px;
+	height: 20px;
+	padding: 5px 0 2px 2px;
+	border-bottom: 1px solid #888;
+	font-size: 12px;
+}
+
+
+#menuBox a:hover, .active {
+	background: #E7E7FF;
+}
+#slidetabsmenu {
+float:left;
+width:100%;
+font-size:90%;
+line-height:normal;
+border-bottom: 1px solid gray;
+}
+
+* html #slidetabsmenu{ /*IE only. Add 1em spacing between menu and rest of content*/
+margin-bottom: 1em;
+}
+
+#slidetabsmenu ul{
+list-style-type: none;
+margin:0;
+margin-left: 10px;
+padding:0;
+}
+
+#slidetabsmenu li{
+display:inline;
+margin:0;
+padding:0;
+}
+
+#slidetabsmenu a {
+float:left;
+background:url(media/tab-left.gif) no-repeat left top;
+margin:0;
+padding:0 0 0 9px;
+text-decoration:none;
+}
+
+#slidetabsmenu a span {
+float:left;
+display:block;
+background:url(media/tab-right.gif) no-repeat right top;
+padding:3px 14px 3px 5px;
+font-weight:bold;
+color:#3B3B3B;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#slidetabsmenu a span {float:none;}
+/* End IE5-Mac hack */
+
+#slidetabsmenu a:hover span {
+color: black;
+}
+
+#slidetabsmenu #current a {
+background-position:0 -125px;
+}
+
+#slidetabsmenu #current a span {
+background-position:100% -125px;
+color: black;
+}
+
+#slidetabsmenu a:hover {
+background-position:0% -125px;
+}
+
+#slidetabsmenu a:hover span {
+background-position:100% -125px;
+}
+
+#contentBox {
+	float: left;
+	width: 880px;
+	margin: 0 0 20px 0;
+  	padding: 10px 10px 0 10px;
+}
+
+#contentBox a {
+	text-decoration: underline;
+}
+
+#contentBox a:hover {
+	text-decoration: none;
+}
+
+#centeredBox{
+	text-align: center;
+}
+
+#footerBox {
+	clear: left;
+	width: 890px;
+	height: 10px;
+	padding: 5px;
+	margin: 0 0 0 0;
+	border-top: 1px solid #330099;
+}
+
+#footLX {
+	float: left;
+	width: 400px;
+	height: 15px;
+	font-size: 11px;
+	color: #3b3c48;
+}
+
+
+.clearfix {
+	overflow: auto;
+}
+
+
+#contentLeft {
+	float: left;
+	width: 270px;
+}
+#contentRight {
+	float: right;
+	width: 610px;
+}
+
+#content {
+	margin: 0 10px 10px 10px
+}
+
+h1 {
+	margin-top: 0
+}
+
+
+/** Page robots */
+.robot-box {
+
+	float:left;
+	width: 200px;
+	margin-right: 10px;
+	height: 420px;
+}
+
+.robot-foto img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.robot-descrizione {
+	height: 180px;
+	overflow: auto;
+}
