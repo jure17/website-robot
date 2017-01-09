@@ -1,5 +1,4 @@
 /* Regole Generali */
-
 body {
 	margin: 0;
 	padding: 0;
@@ -29,7 +28,7 @@ img {
 #wrapperBox {
 	width: 900px;
 	clear: left;
-	background: #F4F4FF;  /** CAMBIA COLORE DEL BOX DEL SITO */
+	background: #f1f1f1;  /** CAMBIA COLORE DEL BOX DEL SITO */
 	margin: 10px auto 30px auto;
 	padding: 5px;
 	-moz-box-shadow: 0 0 5px 5px #ccc;
