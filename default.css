@@ -169,7 +169,7 @@ background-position:100% -125px;
 }
 
 
-.clearfix {
+#clearfix {
 	overflow: auto;
 }
 
@@ -209,4 +209,18 @@ h1 {
 .robot-descrizione {
 	height: 180px;
 	overflow: auto;
+}
+
+.content-left {
+	
+	margin-top: 20px;
+	float:left;
+	width: 48%;
+}
+
+.content-right {
+		
+	margin-top: 20px;
+	float:right;
+	width: 48%;
 }
